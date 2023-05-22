@@ -127,4 +127,144 @@ margin-bottom: 16px;
     align-items: center;
     justify-content: center;
     font-size: 32px;
+    flex: none;
+}
+
+
+
+
+
+
+.portfolio-item{
+    overflow: hidden;
+    position: relative;
+}
+
+
+.portfolio-item img,
+.portfolio-item .portfolio-overlay{
+    transition: all 0.4s ease;
+}
+
+
+.portfolio-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(17, 36, 90, 0.8);
+    display: flex;
+    align-items: flex-end;
+    padding: 30px;
+    opacity: 0;
+}
+
+.portfolio-item:hover .portfolio-overlay{
+    opacity: 1;
+}
+.portfolio-item:hover img{
+transform: scale(1.1);
+}
+
+.portfolio-overlay h3,
+.portfolio-overlay h6{
+    color: white;
+}
+
+
+
+
+.features .icon-box{
+    width: 34px;
+    height: 34px;
+    border-radius: 100px;
+    font-size: 24px;
+}
+
+.team-member{
+    background-color: #11245A;
+}
+
+.even{
+    background-color: #1c3a8d;
+}
+
+
+.team-member .hline{
+    width: 70px;
+    height: 2px;
+    margin: 16px auto;
+    background-color: rgba(255, 255, 255, 0.445);
+}
+
+
+.team-member .team-member-img img,
+.team-member .team-member-img .social-icons{
+    transition: all 0.4s ease;
+}
+
+.team-member .team-member-img{
+    position: relative;
+    overflow: hidden;
+}
+
+
+.team-member .team-member-img .social-icons{
+    width: 100%;
+    height: 60px;
+    background-color: #e93881;
+    position: absolute;
+    bottom: -60;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-member .team-member-img .social-icons a{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgba(255, 255, 255, 0.445);
+    font-size: 24px;
+    color: white;
+    border-radius:100px ;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.team-member .team-member-img .social-icons a:hover{
+    background-color: white;
+    color: #e93881;
+}
+
+.team-member:hover .team-member-img .social-icons{
+    bottom: 0;
+   
+    
+}
+
+.team-member:hover img{
+    transform: translateY(-60px);
+}
+
+
+.review .stars{
+    color: #e93881;
+}
+
+
+.review p{
+    max-width: 600px;
+    margin: 24px auto;
+    font-style: italic
+}
+
+.test-images img{
+    height: 65px;
+    width: 65px;
+    border-radius: 100px;
 }
