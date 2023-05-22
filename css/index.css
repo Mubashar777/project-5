@@ -42,10 +42,13 @@ section{
     padding-bottom: 100px;
 }
 
-.logo-text{
-    font-size: 22px;
-    text-transform: uppercase;
-    color:#11245A !important ;
+.navbar-logo img{
+   height: 50px;
+   width: auto;
+   color: #e93881;
+}
+.navbar-logo{
+    color: #e93881;
 }
 
 .navbar{
