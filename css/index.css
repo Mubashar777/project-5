@@ -73,7 +73,8 @@ section{
 
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
     color: #e93881;
-    text-decoration: underline;
+    font-weight: 800;
+    
 }
 
 #home{
@@ -128,6 +129,20 @@ margin-bottom: 16px;
     background-color: rgba(5, 0, 0, 0.164);
     margin: 16px auto 0 auto;
 }
+
+
+
+
+@media (max-width: 575px) {
+    .justify-content-center {
+        justify-content: center !important;
+    }
+    
+    .align-items-center {
+        align-items: center !important;
+    }
+}
+
 
 
 .icon-box{
@@ -368,7 +383,7 @@ footer .footer-links a{
 }
 
 
-footer .social-links a{
+footer .social-icons a{
     font-size: 24px;
     
 }
